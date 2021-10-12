@@ -9,5 +9,5 @@ class ClassSchedule extends Model
 {
 
     protected $fillable = ['section_id','room_id','date','time_id','section','instructor','course','department','modality','batch'];
-
+ 
 }

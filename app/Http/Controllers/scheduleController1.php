@@ -565,6 +565,7 @@ class scheduleController1 extends Controller
     
             if(!$instChecker){
                 $havechecker =$this->havedate($classes[$i]['section'],$resource[$tch]['date'],$classes[$i]['dep'],$request->batch,$request->modality); 
+                
                 if ($request->modality=="Regular" || $request->modality=="regular"  ) {
                     $chval =1;
                  }
