@@ -52,7 +52,7 @@ $(document).ready(function () {
 
                var check = insttimeanddatechecker(time_id_v,datev,inst);
 
-               if (check!=1) {
+               if (check==0) {
                   document.getElementById(datev.trim()+timev.trim()+secv.trim()).style.backgroundColor = '#009c1732' ;
                }else{
                   document.getElementById(datev.trim()+timev.trim()+secv.trim()).style.backgroundColor = '' ;
